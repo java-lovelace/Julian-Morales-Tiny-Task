@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TinyTasks</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">TinyTasks</h1>
+        <div class="card">
+            <div class="card-body">
+                <div class="input-group mb-3">
+                    <input type="text" id="task-title" class="form-control" placeholder="Enter a new task">
+                    <button id="add-task" class="btn btn-primary">Add</button>
+                </div>
+                <ul id="task-list" class="list-group">
+                    <!-- Tasks will be rendered here -->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
